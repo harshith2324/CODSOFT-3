@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html{
+      background-color: #d9f4ff;
+  }
+  
+  hr {
+      height: 2px;
+      background-color: aqua;
+  }
+  
+  h1{
+      text-align: center;
+      color: orangered;
+      height: 25px;
+      font-size: 50px;
+      padding: 35px;
+      animation: moveText 1s infinite alternate;
+  }
+  @keyframes moveText {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+  
+  .wper {
+    display: grid;
+    height: 600px;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 1px;
+    
+  }
+  .btns {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
+
+  }
+  .bnc:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-m:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-symbol:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-d:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-seven:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-eight:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-nine:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-x:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-four:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-five:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-six:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-Minus:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-one:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-two:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-three:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-Add:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-Decimal:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-zero:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-Back:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .bn-Eq:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+  }
+  .cntner {
+    width: 423px;
+    height: 603px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #000000;
+    margin: 0 auto;
+    padding: auto;
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 2);
+  }
+  
+  .ip-area {
+    background-color: #5b6d7c;
+    grid-column: 1/2;
+    display: block;
+  }
+  
+  input[type="text"] {
+    box-sizing: border-box;
+    margin-top: 9px;
+    margin-left: 10px;
+    padding-top: 29px;
+    padding-right: 39px;
+    padding-bottom: 9px;
+    font-size: 30px;
+    background-color: rgb(218, 216, 216);
+    text-align: right;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 8px;
+  }
+
+
+  input[type="text"]:disabled {
+    color:#000000;
+  }
+  
+  .btn-r-1 {
+    background: #25292c;
+    text-align: center;
+    width: 103px;
+  }
+  
+  .btn-r-2 {
+    background: #13171d;
+    text-align: center;
+    width: 103px;
+  }
+  
+  .btn-r-1 > input {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    align-self: end;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 25px;
+  }
+  
+  .btn-r-2 > input {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    align-self: end;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 24px;
+  }
+  
+  .bnc > input {
+    color: #ff7a00 !important;
+  }
+
+  body{
+    width: 100%;
+    height: 100vh;
+  }
